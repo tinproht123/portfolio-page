@@ -1,0 +1,108 @@
+#about {
+  .bio {
+    padding: 6rem 0;
+    text-align: center;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid $dark;
+    }
+
+    &-name {
+      font-family: $fontPlayfair;
+      margin: 1rem 0;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    &-info {
+      line-height: 2;
+      font-size: 1.2rem;
+    }
+
+    &-job {
+      letter-spacing: 2px;
+      font-family: $fontLato;
+    }
+
+    &-desc {
+      font-weight: 600;
+      font-style: italic;
+      bottom: 0;
+      margin: 4rem 0 1rem;
+      text-align: left;
+      font-size: 1.4rem;
+      letter-spacing: 1.5px;
+      font-family: $fontMerri;
+      line-height: 1.8;
+    }
+  }
+
+  .learning {
+    h3 {
+      letter-spacing: 3px;
+      font-family: $fontPlayfair;
+    }
+    .lh-lg {
+      letter-spacing: 1px;
+    }
+  }
+
+  .technology {
+    h3 {
+      letter-spacing: 5px;
+      font-size: 3rem;
+      font-family: $fontPlayfair;
+      font-style: italic;
+    }
+
+    .col-4 {
+      text-align: center;
+
+      p {
+        letter-spacing: 1px;
+        margin: 0.3rem 0;
+        transform: translateY(-50%);
+        visibility: hidden;
+        font-weight: 600;
+        @include transition-ease;
+      }
+
+      img {
+        filter: grayscale(100);
+        @include transition-ease;
+      }
+
+      &:hover,
+      &:focus {
+        img {
+          transform: translateY(-10%);
+          filter: grayscale(0);
+        }
+
+        p {
+          visibility: visible;
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}
+
+#projects {
+  h2 {
+    font-family: $fontPlayfair;
+    line-height: 1.8;
+    letter-spacing: 3px;
+  }
+  p {
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  a {
+    text-decoration: none;
+  }
+}

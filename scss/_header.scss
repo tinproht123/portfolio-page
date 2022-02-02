@@ -1,0 +1,28 @@
+#home {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba($dark, 0.2),
+      rgba($dark, 0.9),
+      $dark
+    ),
+    url("https://i.pinimg.com/originals/ba/1f/e8/ba1fe8d31f0c1246b64fda6ab88a9f2a.jpg")
+      no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $white;
+  h1 {
+    font-size: 2.8rem;
+    margin: 2rem 0;
+    font-family: $fontPlayfair;
+    letter-spacing: 3px;
+  }
+  p {
+    font-size: 1.2rem;
+    font-family: $fontMerri;
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+}

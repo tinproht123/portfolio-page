@@ -1,0 +1,155 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(34, 34, 34, 0.2)), color-stop(rgba(34, 34, 34, 0.9)), to(#222)), url("https://i.pinimg.com/originals/ba/1f/e8/ba1fe8d31f0c1246b64fda6ab88a9f2a.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(34, 34, 34, 0.2), rgba(34, 34, 34, 0.9), #222), url("https://i.pinimg.com/originals/ba/1f/e8/ba1fe8d31f0c1246b64fda6ab88a9f2a.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f1f3f9;
+}
+
+#home h1 {
+  font-size: 2.8rem;
+  margin: 2rem 0;
+  font-family: "Playfair Display";
+  letter-spacing: 3px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  font-family: "Merriweather";
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+#about .bio {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+#about .bio img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #222;
+}
+
+#about .bio-name {
+  font-family: "Playfair Display";
+  margin: 1rem 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#about .bio-info {
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+#about .bio-job {
+  letter-spacing: 2px;
+  font-family: "Lato";
+}
+
+#about .bio-desc {
+  font-weight: 600;
+  font-style: italic;
+  bottom: 0;
+  margin: 4rem 0 1rem;
+  text-align: left;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  font-family: "Merriweather";
+  line-height: 1.8;
+}
+
+#about .learning h3 {
+  letter-spacing: 3px;
+  font-family: "Playfair Display";
+}
+
+#about .learning .lh-lg {
+  letter-spacing: 1px;
+}
+
+#about .technology h3 {
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
+
+#about .technology .col-4 {
+  text-align: center;
+}
+
+#about .technology .col-4 p {
+  letter-spacing: 1px;
+  margin: 0.3rem 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  visibility: hidden;
+  font-weight: 600;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#about .technology .col-4 img {
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#about .technology .col-4:hover img, #about .technology .col-4:focus img {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#about .technology .col-4:hover p, #about .technology .col-4:focus p {
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#projects h2 {
+  font-family: "Playfair Display";
+  line-height: 1.8;
+  letter-spacing: 3px;
+}
+
+#projects p {
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+#projects a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

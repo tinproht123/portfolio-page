@@ -1,0 +1,11 @@
+$dark: #222;
+$white: #f1f3f9;
+
+$fontRoboto: "Roboto";
+$fontMerri: "Merriweather";
+$fontPlayfair: "Playfair Display";
+$fontLato: "Lato";
+
+@mixin transition-ease {
+  transition: 0.3s all ease-in-out;
+}
